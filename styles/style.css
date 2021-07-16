@@ -63,6 +63,28 @@
     text-transform: uppercase;
     color: #979797;
     font: 15px Metropolis;
-    padding-left: 5px;
+    padding-left: 18px;
     background-color: #ebebeb;
+    outline: none;
+    border: none;
+}
+.search_button{
+    height: 41px;
+    width: 41px;
+    line-height: 41px;
+    font-size: 17px;
+    text-align: center;
+    background-color: #ebebeb;
+    color: #fa090a;
+    transition: 0.4s;
+    border: none;
+    border-radius: 1px;
+}
+.search_button:hover{
+    background-color: #fa090a;
+    color: #ebebeb;
+    transform: scale(1.05);
+}
+.search_block{
+    display: flex;
 }
