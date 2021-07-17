@@ -51,7 +51,7 @@
 }
 .header{
     background-color: rgba(0,0,0,0.65);
-    padding: 25px 0;
+    padding: 25px 0 0;
 }
 .header_1_div{
     padding-bottom: 21px;
@@ -83,8 +83,136 @@
 .search_button:hover{
     background-color: #fa090a;
     color: #ebebeb;
-    transform: scale(1.05);
+    transform: scale(1,1.05);
 }
 .search_block{
     display: flex;
+    margin-top: 8px;
+}
+.online_store_btn{
+    font: 12px Metropolis;
+    padding: 0 14px;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #252525;
+    text-decoration: none;
+    margin-top: 8px;
+    transition: 0.3s;
+}
+.online_store_btn:hover{
+    background-color: white;
+    color: #252525;
+}
+.log_in_btn{
+    font: 12px Metropolis;
+    padding: 0 44px;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #464646;
+    text-decoration: none;
+    margin-top: 8px;
+    transition: 0.3s;
+}
+.log_in_btn:hover{
+    background-color: white;
+    color: #464646;
+}
+.sign_up_now_btn{
+    font: 12px Metropolis;
+    padding: 0 16px;
+    height: 41px;
+    line-height: 41px;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    background-color: #fa090a;
+    text-decoration: none;
+    margin-top: 8px;
+    transition: 0.3s;
+}
+.sign_up_now_btn:hover{
+    background-color: white;
+    color: #fa090a;
+}
+.online_store_btn i{
+    margin-right: 13px;
+}
+.log_in_btn i{
+    margin-right: 13px;
+}
+.sign_up_now_btn i{
+    margin-right: 13px;
+}
+.header_2_div{
+    margin-top: 21px;
+    margin-bottom: 6px;
+}
+.header_2_div a{
+    color: white;
+    font: 25px Bebas Neue;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 0 6px 15px;
+    border-bottom: 5px solid transparent;
+    transition: 0.3s;
+    margin-bottom: 12px;
+}
+.header_2_div a:hover{
+    border-bottom: 5px solid #fa090a;
+}
+.header_2_icon_div{
+    display: flex;
+
+}
+.header_2_icon_div a{
+    margin-left: 18px;
+    height: 30px;
+    width: 30px;
+    background-color: #fa090a;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 19px;
+    color: white;
+}
+.facebook_icon{
+    margin-left: 18px;
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+    background-color: #fa090a;
+    padding: 5px 6px 0 11px;
+    box-sizing: border-box;
+    font-size: 28px;
+    color: white;
+}
+.insta_icon{
+    transition: 0.3s;
+}
+.twitter_icon{
+    transition: 0.3s;
+}
+.youtube_icon{
+    transition: 0.3s;
+}
+.insta_icon:hover{
+    background-image: linear-gradient(135deg, #dc4184, #ffda54);
+    transform: scale(1.5);
+
+}
+twitter_icon:hover{
+    background-color: #03aaf4;
+}
+youtube_icon:hover{
+    background-color: white;
+    color: #fa090a;
+    transform: scale(1.5);
+}
+.facebook_icon:hover{
+    background-color: #4267b2;
 }
