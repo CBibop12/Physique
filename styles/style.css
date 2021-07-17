@@ -281,3 +281,82 @@
     display: inline;
     margin: auto;
 }
+.footer_1_section{
+    padding: 60px 0;
+    background-color: #252525;
+    border-bottom: 1px solid #88888b;
+
+}
+.footer_1_div{
+    max-width: 1135px;
+    margin: auto;
+
+}
+.footer_1_div_1_section{
+
+}
+.footer_1_div_1_section_img{
+}
+.footer_1_div_1_section_img img{
+    width: 242px;
+    margin-bottom: 40px;
+}
+.footer_2_div_1_section_icons_div{
+}
+.footer_soc_btn{
+    height: 44px;
+    width: 44px;
+    background-color: #fa090a;
+    line-height: 44px;
+    color: #252525;
+    text-align: center;
+    font-size: 28px;
+    transition: 0.3s;
+}
+.footer_1_facebook_btn{
+    height: 44px;
+    width: 44px;
+    background-color: #fa090a;
+    padding: 7px 0 0 17px;
+    line-height: 43px;
+    box-sizing: border-box;
+    color: #252525;
+    font-size: 36px;
+    transition: 0.3s;
+}
+.footer_1_facebook_btn:hover{
+    background-color: #4267b2;
+    color: white;
+}
+.footer_1_insta_btn:hover{
+    background-color: #fa69a4;
+    color: white;
+}
+.footer_1_twitter_btn:hover{
+    background-color: #03aaf4;
+    color: white;
+}
+.footer_1_youtube_btn:hover{
+    background-color: white;
+    color: #fa090a;
+}
+.footer_1_div_other_sections_p{
+    line-height: 34px;
+    text-transform: uppercase;
+    font: 14px Metropolis;
+    text-decoration: none;
+
+}
+.footer_a{
+    text-decoration: none;
+    color: white;
+    line-height: 34px;
+    transition: 0.3s;
+}
+.footer_a:hover{
+    color: #fa090a;
+}
+.footer_2_section{
+    height: 63px;
+    background-color: #010006;
+}
