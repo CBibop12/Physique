@@ -25,7 +25,7 @@
 }
 
 @font-face {
-    font-family: 'Metropolis';
+    font-family: 'Metropolis-light';
     src: url('../fonts/Metropolis-Light.eot');
     src: url('../fonts/Metropolis-Light.eot?#iefix') format('embedded-opentype'),
     url('../fonts/Metropolis-Light.woff2') format('woff2'),
@@ -54,7 +54,7 @@
     padding: 25px 0 0;
 }
 .header_1_div{
-    padding-bottom: 21px;
+    padding-bottom: 20px;
     border-bottom: 2px solid #464646;
 }
 .searcher{
@@ -153,7 +153,7 @@
     margin-top: 21px;
     margin-bottom: 6px;
 }
-.header_2_div a{
+.div_a{
     color: white;
     font: 25px Bebas Neue;
     text-transform: uppercase;
@@ -163,56 +163,121 @@
     transition: 0.3s;
     margin-bottom: 12px;
 }
-.header_2_div a:hover{
+.header_2_div .div_a:hover{
     border-bottom: 5px solid #fa090a;
 }
 .header_2_icon_div{
     display: flex;
-
+    margin-bottom: 20px;
 }
-.header_2_icon_div a{
-    margin-left: 18px;
-    height: 30px;
-    width: 30px;
-    background-color: #fa090a;
-    box-sizing: border-box;
-    text-align: center;
-    font-size: 19px;
-    color: white;
-}
-.facebook_icon{
+.header_2_icon_div .icon{
     margin-left: 18px;
     height: 30px;
     width: 30px;
     line-height: 30px;
     background-color: #fa090a;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    transition: 0.3s;
+    border-bottom: none;
+}
+.facebook_icon{
+    margin-left: 18px;
+    height: 30px;
+    width: 30px;
+    font-size: 24px;
+    line-height: 29px;
+    background-color: #fa090a;
     padding: 5px 6px 0 11px;
     box-sizing: border-box;
-    font-size: 28px;
     color: white;
+    transition: 0.3s;
 }
 .insta_icon{
     transition: 0.3s;
 }
 .twitter_icon{
-    transition: 0.3s;
 }
 .youtube_icon{
-    transition: 0.3s;
 }
 .insta_icon:hover{
-    background-image: linear-gradient(135deg, #dc4184, #ffda54);
-    transform: scale(1.5);
-
+    background-color: #fa69a4;
 }
-twitter_icon:hover{
+.twitter_icon:hover{
     background-color: #03aaf4;
 }
-youtube_icon:hover{
+.youtube_icon:hover{
     background-color: white;
     color: #fa090a;
-    transform: scale(1.5);
 }
 .facebook_icon:hover{
     background-color: #4267b2;
+}
+.our_trainers_caption_section {
+    padding: 66px 0 20px;
+}
+.our_trainers_caption_section_h2{
+    font: 50px Bebas Neue;
+    text-transform: uppercase;
+    color: black;
+    padding-bottom: 33px;
+    border-bottom: 3px solid #fa090a;
+    text-align: center;
+}
+.main_section{
+    background-color: #ffffff;
+    height: 1000px;
+}
+.pre_footer_section{
+    border-top: 1px solid #88888b;
+    border-bottom: 1px solid #88888b;
+    background-color: #010006;
+    padding-top: 75px;
+    padding-bottom: 49px;
+}
+.pre_footer_section_div{
+    text-align: center;
+}
+.pre_footer_section_p{
+    font: 19px Metropolis-Light;
+    color: white;
+    text-transform: uppercase;
+    line-height: 27px;
+    margin-bottom: 34px;
+}
+.pre_footer_section_form_div{
+    display: flex;
+}
+.pre_footer_section_form_input{
+    border: none;
+    height: 42px;
+    width: 390px;
+    line-height: 42px;
+    padding-left: 26px;
+    background-color: white;
+    color: #9c9c9c;
+    margin-right: 34px;
+    outline: none;
+}
+.pre_footer_section_form_btn{
+    display: inline-block;
+    background-color: #fa090a;
+    height: 51px;
+    padding: 0 70px;
+    line-height: 51px;
+    color: white;
+    font: 20px Metropolis;
+    text-transform: uppercase;
+    border: none;
+    transition: 0.3s;
+}
+.pre_footer_section_form_btn:hover{
+    background-color: white;
+    color: #fa090a;
+}
+.pre_footer_section_form{
+    display: inline;
+    margin: auto;
 }
